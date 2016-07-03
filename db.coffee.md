@@ -22,12 +22,10 @@ Databases (server-side)
 
 (Relative) filesystem path where to store our local databases.
 
-      databases_dir = @cfg.databases_dir ? 'db/'
-
-FIXME: create the directory (recursively)
+      databases_dir = @cfg.databases_dir ? './db/'
 
       PouchDB = pouchdb.defaults
-        prefix: path.join __dirname, databases_dir
+        prefix: databases_dir
       PouchDB.plugin Validation
 
 Quick Search: See https://github.com/nolanlawson/pouchdb-quick-search#api
