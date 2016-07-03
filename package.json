@@ -1,7 +1,7 @@
 {
-  "name": "rightful-hot",
+  "name": "rightful-hot-server",
   "version": "1.0.1",
-  "description": "App convention for RiotJS+ZappaJS",
+  "description": "App convention for RiotJS+ZappaJS — Server side",
   "main": "index.js",
   "scripts": {
     "prepublish": "coffee -c *.coffee.md",
