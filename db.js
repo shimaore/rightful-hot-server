@@ -27,9 +27,9 @@
 
   this.include = function() {
     var PouchDB, databases_dir, pouchDBApp, ref;
-    databases_dir = (ref = this.cfg.databases_dir) != null ? ref : 'db/';
+    databases_dir = (ref = this.cfg.databases_dir) != null ? ref : './db/';
     PouchDB = pouchdb.defaults({
-      prefix: path.join(__dirname, databases_dir)
+      prefix: databases_dir
     });
     PouchDB.plugin(Validation);
     PouchDB.plugin(QuickSearch);
