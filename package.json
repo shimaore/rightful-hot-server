@@ -1,6 +1,6 @@
 {
   "name": "rightful-hot-server",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "App convention for RiotJS+ZappaJS — Server side",
   "main": "index.js",
   "scripts": {
